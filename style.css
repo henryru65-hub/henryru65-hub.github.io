@@ -1,0 +1,102 @@
+
+
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    margin: 0;
+}
+
+
+
+nav {
+    background-color: #111;
+    text-align: center;
+    padding: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+nav a:hover {
+    color: red;
+    background-color: #333;
+    transition: 0.3s;
+}
+
+
+
+.hero {
+    height: 600px;
+    background-image: url("https://images.openai.com/static-rsc-4/Pqnozf-EacDiRS0azMihFBG17QbV0U5dIVa5JfdPpD1GSv1PwO-p0rKShVSo3-yP-Z5liIvkM66Iz208W4hxIAJczgE3et66SV3NRrUMhLw7tue-IcIBtuYMzaSookErHlQoSW2gwyZ1eVeCh32sUdyQbmt6CMaVMfFZ9sFVu_L_j0JcNxDZbziiQ-NaVKBa?purpose=fullsize");
+    background-size:100% 100%;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.hero h1 {
+    font-size: 55px;
+    color: white;
+}
+
+.hero h1 span {
+    color: red;
+}
+
+.hero p {
+    font-size: 20px;
+    color: lightgray;
+}
+
+
+
+.container {
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 45px;
+    color: red;
+}
+
+.container h2 {
+    color: red;
+    margin-top: 35px;
+}
+
+.container p {
+    font-size: 18px;
+}
+
+.car-image {
+    width: 80%;
+}
+
+.price {
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+    margin: 15px;
+}
+
+
+
+
+.back {
+    display: block;
+    margin: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+.back:hover {
+    color: red;
+}
